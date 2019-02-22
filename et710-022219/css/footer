@@ -1,3 +1,5 @@
+$marketing-site-footer-bg: #2c3840;
+
 .marketing-site-footer {
   background: #2c3840;
   color: #8aa0ae;
