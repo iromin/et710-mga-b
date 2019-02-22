@@ -24,23 +24,60 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/zf/dt-1.10.18/datatables.min.js"></script>
 
 <!-- font awesome -->
+  <!-- current ver
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+-->
+
+<!-- The font Awesome code below is several revisions back.
+   https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
+    I discovered that it would work from an article on stack overflow.  all code should at some point be updated to relfect the last calling syntax for font awesome -->
+
+   <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
 
   </head>
   <body>
     <!-- Begin nav-->
-    <!-- end nav-->
+    <!-- mobile nav bar -->
+<div class="title-bar topbar-center-logo-mobile" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+  <div class="title-bar-left">
+    <div class="title-bar-title"><img src="https://placehold.it/100x39" alt="" /></div>
+  </div>
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+  </div>
+</div>
+<!-- /mobile nav bar -->
 
+<!-- medium and larger nav bar -->
+<div class="top-bar topbar-center-logo" id="topbar-center-logo">
+  <div class="top-bar-left">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-center">
+    <a href="#"><img src="https://placehold.it/100x39" alt="" /></a>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="#">Four</a></li>
+      <li><a href="#">Five</a></li>
+      <li><a href="#">Six</a></li>
+    </ul>
+  </div>
+</div>
+<!-- /medium and larger nav bar -->
+
+    <!-- end nav-->
 
     <!-- Begin subnav-->
     <!-- end subnav-->
 
-
-
     <!-- Begin header-->
     <!-- end header-->
-
-
 
     <!-- Begin content-->
       <!-- begin angularjs-->
@@ -55,6 +92,74 @@
 
 
     <!-- Begin footer-->
+    <footer class="marketing-site-footer">
+  <div class="row medium-unstack">
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-name">Yeti Snowcone</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+      <ul class="menu marketing-site-footer-menu-social simple">
+        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="medium-4 columns">
+       <h4 class="marketing-site-footer-title">Contact Info</h4>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p>100 W Rincon<br>San Francisco, CA 94015</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>1 (800) 555-5555</p>
+      </div>
+      <div class="marketing-site-footer-block">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <p>yetirules@fakeemail.com</p>
+      </div>
+    </div>
+    <div class="medium-4 columns">
+      <h4 class="marketing-site-footer-title">Instagram</h4>
+      <div class="row small-up-3">
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+        <div class="column column-block">
+          <img src="https://placehold.it/75" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="marketing-site-footer-bottom">
+    <div class="row large-unstack align-middle">
+      <div class="column">
+        <p>&copy; 2017 No rights reserved</p>
+      </div>
+      <div class="column">
+        <ul class="menu marketing-site-footer-bottom-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
     <!-- end footer-->
 
 
